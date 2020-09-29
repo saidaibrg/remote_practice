@@ -6,4 +6,5 @@ task_list=[]
 task=raw_input("Enter a task: ")
 task_list.append(task)
 print("Your tasks for today are:")
-print(task_list)
+#Printing the task list without brackets usuing .join(list) function 
+print(",".join(task_list))
